@@ -1,0 +1,12 @@
+package cyb.assignment1;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		
+		String name = "Vishal";
+		public String name_again = new String("Visjal");
+
+	}
+
+}

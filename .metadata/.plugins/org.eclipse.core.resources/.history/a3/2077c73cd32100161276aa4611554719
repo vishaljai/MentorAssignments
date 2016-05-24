@@ -1,0 +1,17 @@
+package cyb.assignment1;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		
+		String name = "Vishal";
+		String name_again = new String("Vishal");
+		String name_test = "Vishal";
+		String name_test_again = "Vishal";
+		
+		System.out.println(name==name_again);
+		System.out.println(name==name_test);
+
+	}
+
+}
