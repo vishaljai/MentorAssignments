@@ -14,7 +14,7 @@ public class StringTest {
 	public static void main(String[] args) {
 
 		// Local variables
-		String name_again = new String("Vishal"); // Object create in heap
+		String name_again = name.intern(); // Object created in heap
 		String name_test = "Vishal"; // Object in String Literal Pool
 		String name_test_again = "vishal"; // Object in String Literal Pool
 
